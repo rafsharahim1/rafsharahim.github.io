@@ -80,6 +80,23 @@
 
 				<article>
 					<header>
+						<h2><a href="#">Two-Stage Fine-Tuning of TinyLLaMA using SFT + DPO</a></h2>
+						<h4>Tools Used: HuggingFace, LoRA, DPO, Python</h4>
+					</header>
+					<a href="images/tinyllama.png" class="image fit"><img src="images/tinyllama.jpg" alt="TinyLLaMA Fine-Tuning" /></a>
+					<p>
+						In this AI research project, we fine-tuned the <strong>TinyLLaMA</strong> model using a two-step pipeline to enhance both instruction-following and ethical alignment. First, we performed <strong>Supervised Fine-Tuning (SFT)</strong> on the <code>databricks-dolly-15k</code> dataset using <strong>LoRA</strong> for parameter-efficient training—improving response quality across multiple configurations.
+						<br><br>
+						Then, we applied <strong>Direct Preference Optimization (DPO)</strong> on the best SFT model using <code>PKU-SafeRLHF</code> safety-aligned response pairs. This significantly improved the model’s helpfulness, harmlessness, and refusal behavior in sensitive scenarios. The project proves that even lightweight models like TinyLLaMA can be effectively aligned using minimal compute and open-source tools.
+					</p>
+					<ul class="actions special">
+						<li><a href="https://github.com/rafsharahim1/finetuning" class="button">View on GitHub</a></li>
+					</ul>
+				</article>
+
+
+				<article>
+					<header>
 						<h2><a href="#">SAP-1 Architecture Simulation</a></h2>
 						<h4>Tools Used: WokWi, Raspberry Pi, Python</h4>
 					</header>
